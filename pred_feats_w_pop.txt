@@ -1,0 +1,51 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             popularity   R-squared:                       0.115
+Model:                            OLS   Adj. R-squared:                  0.106
+Method:                 Least Squares   F-statistic:                     13.89
+Date:                Thu, 22 Sep 2022   Prob (F-statistic):           2.28e-25
+Time:                        00:06:10   Log-Likelihood:                -4690.6
+No. Observations:                1191   AIC:                             9405.
+Df Residuals:                    1179   BIC:                             9466.
+Df Model:                          11                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+Intercept           -7.5312      3.602     -2.091      0.037     -14.597      -0.465
+danceability         2.5983      2.693      0.965      0.335      -2.686       7.882
+energy               9.7591      2.975      3.280      0.001       3.921      15.597
+key                  0.2157      0.102      2.110      0.035       0.015       0.416
+loudness            -0.3567      0.133     -2.681      0.007      -0.618      -0.096
+mode                 0.0998      0.743      0.134      0.893      -1.358       1.558
+speechiness         -0.3484      5.235     -0.067      0.947     -10.620       9.923
+acousticness        24.2187      3.027      8.001      0.000      18.280      30.158
+instrumentalness    -3.4667      1.104     -3.141      0.002      -5.632      -1.301
+liveness             1.0136      2.340      0.433      0.665      -3.578       5.605
+valence              9.2730      2.174      4.265      0.000       5.007      13.539
+tempo                0.0081      0.012      0.653      0.514      -0.016       0.032
+==============================================================================
+Omnibus:                      513.730   Durbin-Watson:                   0.318
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2230.324
+Skew:                           2.054   Prob(JB):                         0.00
+Kurtosis:                       8.298   Cond. No.                     1.94e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.94e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+P-Values: 
+Intercept           3.673298e-02
+danceability        3.348457e-01
+energy              1.068627e-03
+key                 3.503308e-02
+loudness            7.438699e-03
+mode                8.932117e-01
+speechiness         9.469489e-01
+acousticness        2.931480e-15
+instrumentalness    1.724076e-03
+liveness            6.650037e-01
+valence             2.161343e-05
+tempo               5.140243e-01
+Name: P>|t|, dtype: float64

@@ -1,0 +1,31 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             popularity   R-squared:                       0.035
+Model:                            OLS   Adj. R-squared:                  0.033
+Method:                 Least Squares   F-statistic:                     21.43
+Date:                Thu, 22 Sep 2022   Prob (F-statistic):           7.21e-10
+Time:                        00:06:09   Log-Likelihood:                -4742.0
+No. Observations:                1191   AIC:                             9490.
+Df Residuals:                    1188   BIC:                             9505.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+Intercept        4.5530      1.020      4.464      0.000       2.552       6.554
+valence          9.1596      2.140      4.280      0.000       4.961      13.358
+danceability     6.0063      2.684      2.238      0.025       0.741      11.271
+==============================================================================
+Omnibus:                      598.989   Durbin-Watson:                   0.214
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3095.096
+Skew:                           2.388   Prob(JB):                         0.00
+Kurtosis:                       9.290   Cond. No.                         9.09
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+P-Values: 
+Intercept       0.000009
+valence         0.000020
+danceability    0.025396
+Name: P>|t|, dtype: float64

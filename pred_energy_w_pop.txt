@@ -1,0 +1,29 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             popularity   R-squared:                       0.008
+Model:                            OLS   Adj. R-squared:                  0.007
+Method:                 Least Squares   F-statistic:                     9.210
+Date:                Thu, 22 Sep 2022   Prob (F-statistic):            0.00246
+Time:                        00:06:08   Log-Likelihood:                -4758.5
+No. Observations:                1191   AIC:                             9521.
+Df Residuals:                    1189   BIC:                             9531.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     15.3743      1.930      7.966      0.000      11.588      19.161
+energy        -6.6764      2.200     -3.035      0.002     -10.993      -2.360
+==============================================================================
+Omnibus:                      604.829   Durbin-Watson:                   0.200
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3123.930
+Skew:                           2.418   Prob(JB):                         0.00
+Kurtosis:                       9.290   Cond. No.                         10.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+P-Values: 
+Intercept    3.823488e-15
+energy       2.458968e-03
+Name: P>|t|, dtype: float64

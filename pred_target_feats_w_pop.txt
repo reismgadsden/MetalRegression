@@ -1,0 +1,37 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             popularity   R-squared:                       0.110
+Model:                            OLS   Adj. R-squared:                  0.107
+Method:                 Least Squares   F-statistic:                     29.41
+Date:                Thu, 22 Sep 2022   Prob (F-statistic):           3.24e-28
+Time:                        00:06:10   Log-Likelihood:                -4693.5
+No. Observations:                1191   AIC:                             9399.
+Df Residuals:                    1185   BIC:                             9429.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+Intercept           -4.7088      3.006     -1.566      0.118     -10.607       1.189
+energy              10.0880      2.801      3.601      0.000       4.592      15.584
+loudness            -0.3697      0.129     -2.865      0.004      -0.623      -0.117
+acousticness        24.4471      2.972      8.226      0.000      18.616      30.278
+instrumentalness    -3.5497      1.085     -3.273      0.001      -5.677      -1.422
+valence             10.3994      1.904      5.462      0.000       6.664      14.135
+==============================================================================
+Omnibus:                      510.733   Durbin-Watson:                   0.314
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2194.658
+Skew:                           2.045   Prob(JB):                         0.00
+Kurtosis:                       8.244   Cond. No.                         91.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+P-Values: 
+Intercept           1.175070e-01
+energy              3.296347e-04
+loudness            4.245119e-03
+acousticness        5.040238e-16
+instrumentalness    1.094647e-03
+valence             5.726886e-08
+Name: P>|t|, dtype: float64

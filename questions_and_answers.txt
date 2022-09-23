@@ -1,0 +1,36 @@
+1:
+    File: pred_gen_w_pop.txt
+    Question: Can a band's genre be used to make guesses about their popularity?
+    Answer: Genre accounts for about 67% (R-Squared) of variation in popularity, however this result does not show a strong correlation between genre and popularity. Furthermore, using an α(alpha)-value of 0.05, which gives a range of 1.0000 to 1.2539 for our F-Critical value, comparing this to our F-Statistic, we can reject our null hypothesis, which is that there is no statistical difference in popularity dependent on genre.
+
+2:
+    File: pred_energy_w_pop.txt
+    Question: Does a band having more "energy" indicate their popularity?
+    Answer: Energy accounts for only 0.9% (R-Squared) of variation in popularity, indicating that energy has a small correlation with population. Furthermore, our F-Statistic in comparison to our F-Critical value, allows to reject the null hypothesis. Since our p-value for energy is less then our alpha-value and our F-Stat is greater then our result may be statically significant, but only account for a small amount of variation.
+
+3:
+    File: pred_valence_and_danceability_w_pop.txt
+    Question: Can two strongly correlated features, specifically valence and danceability, affect popularity.
+    Answer: Valence and danceability only account for 3.4% (R-Squared) of variation in popularity, indicating that energy has correlation with population. Furthermore, our F-Statistic in comparison to our F-Critical value, allows to reject the null hypothesis. Since our p-values for danceability and valence is less then our alpha-value and our F-Stat is greater then our result may be statically significant, but only account for a small amount of variation.
+    Note: These two features were shown to be positively correlated by a correlation matrix, please view the correlation heatmap submitted in the last assignment (Data Wrangling)
+
+4:
+    File: pred_energy_and_acousticness_w_pop.txt
+    Question: Can two strongly negatively correlated features, specifcally energy and acousticness
+    Answer: Energy and acousticness only account for 6.6% (R-Squared) of variation in popularity, indicating that energy has correlation with population. Furthermore, our F-Statistic in comparison to our F-Critical value, allows to reject the null hypothesis. Since our p-values for energy and acousticness is less then our alpha-value and our F-Stat is greater then our result may be statically significant, but only account for a small amount of variation.
+    Note: These two features were shown to be negatively correlated by a correlation matrix, please view the correlation heatmap submitted in the last assignment (Data Wrangling)
+
+5:
+    File: pred_gen_w_energy.txt
+    Question: Can a band's genre be used to determine their energy?
+    Answer: Genre accounts for only 23.3% (R-Squared) of variation in energy, indicating that there is no or a weak correlation between these values. Furthermore, our F-Statistic in comparison to our F-Critical value, allows to reject the null hypothesis. Since our p-values for genres all satisfy our alpha value, we can say that energy does account for small but signifcant variation in genre.
+
+6:
+    File: pred_feats_w_pop.txt
+    Question: Can a band's popularity be determined by there top tracks' audio features, and if so, which ones?
+    Answer: Sort of. While we see p-values that satisfy our α(alpha)-value of 0.05 in energy, loudness, acousticness, instrumentalness, and valence, our F-Statistics in comparison to our F-Critical value tells us that we must reject our null hypothesis, meaning that there should be statistical significance between artists popularity and their top tracks' audio features.
+
+7:
+    File: pred_target_feats_w_pop.txt
+    Question: As a follow up to the previous question do the features that satisfy our alpha value produce significant variation in popularity.
+    Answer: Yes, they kind of do. While or R-Squared might be low, 11.2%, these p-values are significant. So while they do not account for most of the variation, they do account for a small but statisical significant.

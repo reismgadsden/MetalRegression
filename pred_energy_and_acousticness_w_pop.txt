@@ -1,0 +1,31 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             popularity   R-squared:                       0.064
+Model:                            OLS   Adj. R-squared:                  0.063
+Method:                 Least Squares   F-statistic:                     40.68
+Date:                Thu, 22 Sep 2022   Prob (F-statistic):           8.12e-18
+Time:                        00:06:09   Log-Likelihood:                -4723.7
+No. Observations:                1191   AIC:                             9453.
+Df Residuals:                    1188   BIC:                             9469.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+Intercept        2.8609      2.388      1.198      0.231      -1.824       7.546
+energy           6.3700      2.635      2.417      0.016       1.200      11.540
+acousticness    25.2042      2.978      8.462      0.000      19.361      31.048
+==============================================================================
+Omnibus:                      555.556   Durbin-Watson:                   0.287
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2678.497
+Skew:                           2.205   Prob(JB):                         0.00
+Kurtosis:                       8.875   Cond. No.                         14.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+P-Values: 
+Intercept       2.311642e-01
+energy          1.579359e-02
+acousticness    7.611904e-17
+Name: P>|t|, dtype: float64

@@ -1,0 +1,329 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             popularity   R-squared:                       0.666
+Model:                            OLS   Adj. R-squared:                  0.423
+Method:                 Least Squares   F-statistic:                     2.737
+Date:                Thu, 22 Sep 2022   Prob (F-statistic):           1.13e-11
+Time:                        00:06:08   Log-Likelihood:                -1348.8
+No. Observations:                 359   AIC:                             3002.
+Df Residuals:                     207   BIC:                             3592.
+Df Model:                         151                                         
+Covariance Type:            nonrobust                                         
+==============================================================================================
+                                 coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------
+genre[album rock]             60.0000     13.645      4.397      0.000      33.099      86.901
+genre[alt z]                  72.0000     13.645      5.277      0.000      45.099      98.901
+genre[alternative]            29.0000     13.645      2.125      0.035       2.099      55.901
+genre[ambient]                 3.0000     13.645      0.220      0.826     -23.901      29.901
+genre[ambient black]           3.0000     13.645      0.220      0.826     -23.901      29.901
+genre[american melodeath]      1.0000     13.645      0.073      0.942     -25.901      27.901
+genre[atmospheric black]       3.3333      7.878      0.423      0.673     -12.198      18.865
+genre[avant-garde]             7.0000     13.645      0.513      0.608     -19.901      33.901
+genre[avant-garde black]       7.0000      9.648      0.726      0.469     -12.022      26.022
+genre[black]                   7.3333      4.548      1.612      0.108      -1.634      16.300
+genre[black sludge]            6.0000     13.645      0.440      0.661     -20.901      32.901
+genre[black speed]            11.0000     13.645      0.806      0.421     -15.901      37.901
+genre[blues rock]             60.0000     13.645      4.397      0.000      33.099      86.901
+genre[boston]                  1.0000     13.645      0.073      0.942     -25.901      27.901
+genre[brazilian doom]          1.0000     13.645      0.073      0.942     -25.901      27.901
+genre[brazilian grindcore]     1.0000     13.645      0.073      0.942     -25.901      27.901
+genre[british death]           1.0000      9.648      0.104      0.918     -18.022      20.022
+genre[brutal death]            4.0000     13.645      0.293      0.770     -22.901      30.901
+genre[canadian]               33.0000     13.645      2.418      0.016       6.099      59.901
+genre[chicago pop punk]        8.0000     13.645      0.586      0.558     -18.901      34.901
+genre[chilean]                16.0000     13.645      1.173      0.242     -10.901      42.901
+genre[christian power]         5.0000     13.645      0.366      0.714     -21.901      31.901
+genre[classic rock]           60.0000     13.645      4.397      0.000      33.099      86.901
+genre[contemporary r&b]       55.0000     13.645      4.031      0.000      28.099      81.901
+genre[core]                   10.2500      6.822      1.502      0.135      -3.200      23.700
+genre[crossover]               1.0000     13.645      0.073      0.942     -25.901      27.901
+genre[cyber]                  29.0000     13.645      2.125      0.035       2.099      55.901
+genre[czsk black]              7.0000     13.645      0.513      0.608     -19.901      33.901
+genre[dance pop]              72.0000     13.645      5.277      0.000      45.099      98.901
+genre[danish]                 29.0000     13.645      2.125      0.035       2.099      55.901
+genre[dark black]             23.0000     13.645      1.686      0.093      -3.901      49.901
+genre[death]                   7.6154      2.676      2.846      0.005       2.340      12.891
+genre[deathcore]               1.0000     13.645      0.073      0.942     -25.901      27.901
+genre[deep folk]              20.0000     13.645      1.466      0.144      -6.901      46.901
+genre[dissonant death]         4.0000     13.645      0.293      0.770     -22.901      30.901
+genre[doom]                   13.0000      5.157      2.521      0.012       2.832      23.168
+genre[drone]                   6.0000     13.645      0.440      0.661     -20.901      32.901
+genre[electropop]             72.0000     13.645      5.277      0.000      45.099      98.901
+genre[epic black]              1.0000     13.645      0.073      0.942     -25.901      27.901
+genre[film score]              4.0000     13.645      0.293      0.770     -22.901      30.901
+genre[finnish doom]           20.0000     13.645      1.466      0.144      -6.901      46.901
+genre[finnish heavy]           2.0000     13.645      0.147      0.884     -24.901      28.901
+genre[finnish melodeath]       5.0000     13.645      0.366      0.714     -21.901      31.901
+genre[folk]                   10.5000      6.822      1.539      0.125      -2.950      23.950
+genre[folk black]             12.0000      9.648      1.244      0.215      -7.022      31.022
+genre[funeral doom]           12.0000      9.648      1.244      0.215      -7.022      31.022
+genre[funk]                   55.0000     13.645      4.031      0.000      28.099      81.901
+genre[german]                 34.0000      9.648      3.524      0.001      14.978      53.022
+genre[german death]            2.0000     13.645      0.147      0.884     -24.901      28.901
+genre[german power]           34.0000      9.648      3.524      0.001      14.978      53.022
+genre[german thrash]           5.0000      9.648      0.518      0.605     -14.022      24.022
+genre[glam]                   60.0000     13.645      4.397      0.000      33.099      86.901
+genre[goregrind]               8.0000      9.648      0.829      0.408     -11.022      27.022
+genre[gothenburg]             14.0000     13.645      1.026      0.306     -12.901      40.901
+genre[gothic]                  8.5000      6.822      1.246      0.214      -4.950      21.950
+genre[gothic symphonic]       25.0000     13.645      1.832      0.068      -1.901      51.901
+genre[greek]                   7.0000     13.645      0.513      0.608     -19.901      33.901
+genre[greek black]             7.0000     13.645      0.513      0.608     -19.901      33.901
+genre[grindcore]               6.3333      5.571      1.137      0.257      -4.649      17.316
+genre[grisly death]            4.0000     13.645      0.293      0.770     -22.901      30.901
+genre[groove]                  7.7500      6.822      1.136      0.257      -5.700      21.200
+genre[hard rock]              24.7143      5.157      4.792      0.000      14.547      34.882
+genre[hardcore]               16.6667      7.878      2.116      0.036       1.135      32.198
+genre[hardcore influences]     4.0000     13.645      0.293      0.770     -22.901      30.901
+genre[heavy]                  15.2759      2.534      6.029      0.000      10.280      20.271
+genre[heavy psych]            11.0000     13.645      0.806      0.421     -15.901      37.901
+genre[indonesian]             18.0000     13.645      1.319      0.189      -8.901      44.901
+genre[indonesian death]       18.0000     13.645      1.319      0.189      -8.901      44.901
+genre[indonesian hardcore]    18.0000     13.645      1.319      0.189      -8.901      44.901
+genre[industrial]              7.0000     13.645      0.513      0.608     -19.901      33.901
+genre[industrial rock]        29.0000     13.645      2.125      0.035       2.099      55.901
+genre[italian]                24.5000      9.648      2.539      0.012       5.478      43.522
+genre[italian gothic]         25.0000     13.645      1.832      0.068      -1.901      51.901
+genre[italian hardcore]        1.0000     13.645      0.073      0.942     -25.901      27.901
+genre[italian power]          24.0000     13.645      1.759      0.080      -2.901      50.901
+genre[japanese heavy]         10.0000     13.645      0.733      0.464     -16.901      36.901
+genre[japanese power]          2.0000     13.645      0.147      0.884     -24.901      28.901
+genre[melodic]                34.0000      9.648      3.524      0.001      14.978      53.022
+genre[melodic black]           8.6667      7.878      1.100      0.273      -6.865      24.198
+genre[melodic death]          10.2727      4.114      2.497      0.013       2.162      18.384
+genre[melodic deathcore]       1.0000     13.645      0.073      0.942     -25.901      27.901
+genre[melodic doom]           20.0000      9.648      2.073      0.039       0.978      39.022
+genre[melodic groove]         29.0000     13.645      2.125      0.035       2.099      55.901
+genre[melodic heavy]           5.0000     13.645      0.366      0.714     -21.901      31.901
+genre[metal]                  39.7500      6.822      5.826      0.000      26.300      53.200
+genre[mexican power]           6.0000     13.645      0.440      0.661     -20.901      32.901
+genre[necrogrind]             15.0000     13.645      1.099      0.273     -11.901      41.901
+genre[neo classical]          31.3333      7.878      3.977      0.000      15.802      46.865
+genre[neo soul]               55.0000     13.645      4.031      0.000      28.099      81.901
+genre[neo-progressive]        28.0000      9.648      2.902      0.004       8.978      47.022
+genre[neo-trad]               34.0000      9.648      3.524      0.001      14.978      53.022
+genre[new wave of speed]      11.0000     13.645      0.806      0.421     -15.901      37.901
+genre[new wave of thrash]      4.5000      9.648      0.466      0.641     -14.522      23.522
+genre[nordic folk]             1.0000     13.645      0.073      0.942     -25.901      27.901
+genre[norwegian]              15.0000      9.648      1.555      0.122      -4.022      34.022
+genre[norwegian black]        23.0000     13.645      1.686      0.093      -3.901      49.901
+genre[nwobhm]                 28.0000      9.648      2.902      0.004       8.978      47.022
+genre[nwothm]                 13.6667      7.878      1.735      0.084      -1.865      29.198
+genre[old school thrash]      35.5000      9.648      3.679      0.000      16.478      54.522
+genre[pagan]                   4.0000      9.648      0.415      0.679     -15.022      23.022
+genre[pagan black]            23.0000     13.645      1.686      0.093      -3.901      49.901
+genre[polish]                 20.0000     13.645      1.466      0.144      -6.901      46.901
+genre[polish death]            4.0000     13.645      0.293      0.770     -22.901      30.901
+genre[polish folk]            20.0000     13.645      1.466      0.144      -6.901      46.901
+genre[polish thrash]           9.0000     13.645      0.660      0.510     -17.901      35.901
+genre[pop]                    72.0000     13.645      5.277      0.000      45.099      98.901
+genre[pornogrind]             15.0000     13.645      1.099      0.273     -11.901      41.901
+genre[portuguese]              5.3333      7.878      0.677      0.499     -10.198      20.865
+genre[post-]                  24.0000      9.648      2.487      0.014       4.978      43.022
+genre[post-black]              7.0000     13.645      0.513      0.608     -19.901      33.901
+genre[post-rock]               7.0000     13.645      0.513      0.608     -19.901      33.901
+genre[post-teen pop]          72.0000     13.645      5.277      0.000      45.099      98.901
+genre[power]                  17.2727      4.114      4.198      0.000       9.162      25.384
+genre[progressive]            22.4286      5.157      4.349      0.000      12.261      32.596
+genre[progressive death]       1.0000      9.648      0.104      0.918     -18.022      20.022
+genre[punk]                   58.0000     13.645      4.251      0.000      31.099      84.901
+genre[quiet storm]            55.0000     13.645      4.031      0.000      28.099      81.901
+genre[r&b]                    55.0000     13.645      4.031      0.000      28.099      81.901
+genre[rap rock]               58.0000     13.645      4.251      0.000      31.099      84.901
+genre[rock]                   60.0000     13.645      4.397      0.000      33.099      86.901
+genre[rock pernambucano]       1.0000     13.645      0.073      0.942     -25.901      27.901
+genre[russian folk]            1.0000     13.645      0.073      0.942     -25.901      27.901
+genre[russian nu]              6.0000     13.645      0.440      0.661     -20.901      32.901
+genre[shoegaze]                7.0000     13.645      0.513      0.608     -19.901      33.901
+genre[ska]                    58.0000     13.645      4.251      0.000      31.099      84.901
+genre[ska punk]               58.0000     13.645      4.251      0.000      31.099      84.901
+genre[skate punk]             58.0000     13.645      4.251      0.000      31.099      84.901
+genre[slavic]                 10.5000      9.648      1.088      0.278      -8.522      29.522
+genre[slavic folk]            10.5000      9.648      1.088      0.278      -8.522      29.522
+genre[slayer]                 25.0000     13.645      1.832      0.068      -1.901      51.901
+genre[slc hardcore]            2.0000     13.645      0.147      0.884     -24.901      28.901
+genre[slovak]                  7.0000     13.645      0.513      0.608     -19.901      33.901
+genre[sludge]                 21.4000      6.102      3.507      0.001       9.370      33.430
+genre[smooth jazz]            55.0000     13.645      4.031      0.000      28.099      81.901
+genre[soul]                   55.0000     13.645      4.031      0.000      28.099      81.901
+genre[southern]               10.0000     13.645      0.733      0.464     -16.901      36.901
+genre[speed]                  20.8182      4.114      5.060      0.000      12.707      28.929
+genre[stoner]                  6.0000      9.648      0.622      0.535     -13.022      25.022
+genre[swedish melodeath]      14.0000     13.645      1.026      0.306     -12.901      40.901
+genre[symphonic]               3.6667      7.878      0.465      0.642     -11.865      19.198
+genre[symphonic black]        23.0000     13.645      1.686      0.093      -3.901      49.901
+genre[symphonic power]        13.5000      6.822      1.979      0.049       0.050      26.950
+genre[technical death]         4.0000     13.645      0.293      0.770     -22.901      30.901
+genre[technical thrash]        5.0000     13.645      0.366      0.714     -21.901      31.901
+genre[thrash]                  8.6000      2.306      3.729      0.000       4.053      13.147
+genre[thrash  with groove]     4.0000     13.645      0.293      0.770     -22.901      30.901
+genre[uk doom]                 6.0000     13.645      0.440      0.661     -20.901      32.901
+genre[uk pop]                 72.0000     13.645      5.277      0.000      45.099      98.901
+genre[ukhc]                    2.0000     13.645      0.147      0.884     -24.901      28.901
+genre[ukrainian black]         4.0000     13.645      0.293      0.770     -22.901      30.901
+genre[urban contemporary]     55.0000     13.645      4.031      0.000      28.099      81.901
+genre[viking black]           12.0000     13.645      0.879      0.380     -14.901      38.901
+==============================================================================
+Omnibus:                      139.717   Durbin-Watson:                   2.125
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              616.909
+Skew:                           1.637   Prob(JB):                    1.10e-134
+Kurtosis:                       8.525   Cond. No.                         5.92
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+P-Values: 
+genre[album rock]             1.752659e-05
+genre[alt z]                  3.308226e-07
+genre[alternative]            3.474512e-02
+genre[ambient]                8.261961e-01
+genre[ambient black]          8.261961e-01
+genre[american melodeath]     9.416485e-01
+genre[atmospheric black]      6.726451e-01
+genre[avant-garde]            6.084922e-01
+genre[avant-garde black]      4.689622e-01
+genre[black]                  1.084173e-01
+genre[black sludge]           6.605973e-01
+genre[black speed]            4.210776e-01
+genre[blues rock]             1.752659e-05
+genre[boston]                 9.416485e-01
+genre[brazilian doom]         9.416485e-01
+genre[brazilian grindcore]    9.416485e-01
+genre[british death]          9.175527e-01
+genre[brutal death]           7.697028e-01
+genre[canadian]               1.645110e-02
+genre[chicago pop punk]       5.583155e-01
+genre[chilean]                2.423072e-01
+genre[christian power]        7.144148e-01
+genre[classic rock]           1.752659e-05
+genre[contemporary r&b]       7.810472e-05
+genre[core]                   1.345222e-01
+genre[crossover]              9.416485e-01
+genre[cyber]                  3.474512e-02
+genre[czsk black]             6.084922e-01
+genre[dance pop]              3.308226e-07
+genre[danish]                 3.474512e-02
+genre[dark black]             9.337954e-02
+genre[death]                  4.875364e-03
+genre[deathcore]              9.416485e-01
+genre[deep folk]              1.442366e-01
+genre[dissonant death]        7.697028e-01
+genre[doom]                   1.246678e-02
+genre[drone]                  6.605973e-01
+genre[electropop]             3.308226e-07
+genre[epic black]             9.416485e-01
+genre[film score]             7.697028e-01
+genre[finnish doom]           1.442366e-01
+genre[finnish heavy]          8.836110e-01
+genre[finnish melodeath]      7.144148e-01
+genre[folk]                   1.253250e-01
+genre[folk black]             2.150088e-01
+genre[funeral doom]           2.150088e-01
+genre[funk]                   7.810472e-05
+genre[german]                 5.233561e-04
+genre[german death]           8.836110e-01
+genre[german power]           5.233561e-04
+genre[german thrash]          6.048602e-01
+genre[glam]                   1.752659e-05
+genre[goregrind]              4.079760e-01
+genre[gothenburg]             3.060807e-01
+genre[gothic]                 2.142172e-01
+genre[gothic symphonic]       6.836225e-02
+genre[greek]                  6.084922e-01
+genre[greek black]            6.084922e-01
+genre[grindcore]              2.568808e-01
+genre[grisly death]           7.697028e-01
+genre[groove]                 2.572917e-01
+genre[hard rock]              3.146373e-06
+genre[hardcore]               3.557312e-02
+genre[hardcore influences]    7.697028e-01
+genre[heavy]                  7.478412e-09
+genre[heavy psych]            4.210776e-01
+genre[indonesian]             1.885711e-01
+genre[indonesian death]       1.885711e-01
+genre[indonesian hardcore]    1.885711e-01
+genre[industrial]             6.084922e-01
+genre[industrial rock]        3.474512e-02
+genre[italian]                1.184315e-02
+genre[italian gothic]         6.836225e-02
+genre[italian hardcore]       9.416485e-01
+genre[italian power]          8.007415e-02
+genre[japanese heavy]         4.644669e-01
+genre[japanese power]         8.836110e-01
+genre[melodic]                5.233561e-04
+genre[melodic black]          2.725581e-01
+genre[melodic death]          1.330648e-02
+genre[melodic deathcore]      9.416485e-01
+genre[melodic doom]           3.942278e-02
+genre[melodic groove]         3.474512e-02
+genre[melodic heavy]          7.144148e-01
+genre[metal]                  2.144767e-08
+genre[mexican power]          6.605973e-01
+genre[necrogrind]             2.729120e-01
+genre[neo classical]          9.632306e-05
+genre[neo soul]               7.810472e-05
+genre[neo-progressive]        4.108919e-03
+genre[neo-trad]               5.233561e-04
+genre[new wave of speed]      4.210776e-01
+genre[new wave of thrash]     6.414229e-01
+genre[nordic folk]            9.416485e-01
+genre[norwegian]              1.215566e-01
+genre[norwegian black]        9.337954e-02
+genre[nwobhm]                 4.108919e-03
+genre[nwothm]                 8.426425e-02
+genre[old school thrash]      2.981755e-04
+genre[pagan]                  6.788833e-01
+genre[pagan black]            9.337954e-02
+genre[polish]                 1.442366e-01
+genre[polish death]           7.697028e-01
+genre[polish folk]            1.442366e-01
+genre[polish thrash]          5.102547e-01
+genre[pop]                    3.308226e-07
+genre[pornogrind]             2.729120e-01
+genre[portuguese]             4.991643e-01
+genre[post-]                  1.365639e-02
+genre[post-black]             6.084922e-01
+genre[post-rock]              6.084922e-01
+genre[post-teen pop]          3.308226e-07
+genre[power]                  3.991064e-05
+genre[progressive]            2.146491e-05
+genre[progressive death]      9.175527e-01
+genre[punk]                   3.223896e-05
+genre[quiet storm]            7.810472e-05
+genre[r&b]                    7.810472e-05
+genre[rap rock]               3.223896e-05
+genre[rock]                   1.752659e-05
+genre[rock pernambucano]      9.416485e-01
+genre[russian folk]           9.416485e-01
+genre[russian nu]             6.605973e-01
+genre[shoegaze]               6.084922e-01
+genre[ska]                    3.223896e-05
+genre[ska punk]               3.223896e-05
+genre[skate punk]             3.223896e-05
+genre[slavic]                 2.777475e-01
+genre[slavic folk]            2.777475e-01
+genre[slayer]                 6.836225e-02
+genre[slc hardcore]           8.836110e-01
+genre[slovak]                 6.084922e-01
+genre[sludge]                 5.558514e-04
+genre[smooth jazz]            7.810472e-05
+genre[soul]                   7.810472e-05
+genre[southern]               4.644669e-01
+genre[speed]                  9.224013e-07
+genre[stoner]                 5.347178e-01
+genre[swedish melodeath]      3.060807e-01
+genre[symphonic]              6.421094e-01
+genre[symphonic black]        9.337954e-02
+genre[symphonic power]        4.917023e-02
+genre[technical death]        7.697028e-01
+genre[technical thrash]       7.144148e-01
+genre[thrash]                 2.484215e-04
+genre[thrash  with groove]    7.697028e-01
+genre[uk doom]                6.605973e-01
+genre[uk pop]                 3.308226e-07
+genre[ukhc]                   8.836110e-01
+genre[ukrainian black]        7.697028e-01
+genre[urban contemporary]     7.810472e-05
+genre[viking black]           3.801805e-01
+Name: P>|t|, dtype: float64
